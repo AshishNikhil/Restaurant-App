@@ -61,6 +61,7 @@ const Login = props => {
           type="text"
           onChange={onChangeHandler}
           value={username}
+          placeholder="rahul"
         />
         <label htmlFor="password">PASSWORD</label>
         <input
@@ -68,6 +69,7 @@ const Login = props => {
           type="password"
           onChange={onChangeHandler}
           value={password}
+          placeholder="rahul@2021"
         />
         <button type="submit" className="login-button">
           Login
